@@ -1,0 +1,16 @@
+.magiciancart-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 10px;
+}
+.magician-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.cart-container{
+    text-align: center;
+    background-color: rgb(176, 215, 243);
+    width: 90%;
+    height:max-content;
+    border-radius: 5px;
+}
